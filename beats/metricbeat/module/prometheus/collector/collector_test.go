@@ -5,7 +5,7 @@ package collector
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
 
 	"github.com/golang/protobuf/proto"
 	dto "github.com/prometheus/client_model/go"

@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/outputs/codec/json"
+	"github.com/useproject/elastic-beats/beats/libbeat/beat"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/outputs/codec/json"
 
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/module"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb/module"
 )
 
 // ExampleWrapper demonstrates how to create a single Wrapper

@@ -6,7 +6,7 @@ import (
 
 	"github.com/joeshaw/multierror"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
 )
 
 func CheckRemoved5xSettings(cfg *common.Config, settings ...string) error {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
 )
 
 func nop(key string, data map[string]interface{}) (interface{}, error) {

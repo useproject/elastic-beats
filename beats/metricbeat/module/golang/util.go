@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/useproject/elastic-beats/beats/libbeat/logp"
 )
 
 /**

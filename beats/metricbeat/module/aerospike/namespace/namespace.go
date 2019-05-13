@@ -6,11 +6,11 @@ import (
 	as "github.com/aerospike/aerospike-client-go"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/module/aerospike"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/common/cfgwarn"
+	"github.com/useproject/elastic-beats/beats/libbeat/logp"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb"
+	"github.com/useproject/elastic-beats/beats/metricbeat/module/aerospike"
 )
 
 // init registers the MetricSet with the central registry.

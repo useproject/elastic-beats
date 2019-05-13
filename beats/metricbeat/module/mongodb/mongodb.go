@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/parse"
+	"github.com/useproject/elastic-beats/beats/libbeat/logp"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb/parse"
 
 	mgo "gopkg.in/mgo.v2"
 )

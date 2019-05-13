@@ -5,10 +5,10 @@ package filesystem
 import (
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/parse"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/logp"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb/parse"
 
 	"github.com/pkg/errors"
 )

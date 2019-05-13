@@ -6,7 +6,7 @@ package mysql
 import (
 	"database/sql"
 
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb"
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/pkg/errors"

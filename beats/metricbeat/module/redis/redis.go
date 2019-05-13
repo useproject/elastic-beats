@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/useproject/elastic-beats/beats/libbeat/logp"
 
 	rd "github.com/garyburd/redigo/redis"
 )

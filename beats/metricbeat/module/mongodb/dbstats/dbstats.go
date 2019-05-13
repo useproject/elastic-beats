@@ -5,10 +5,10 @@ import (
 
 	"gopkg.in/mgo.v2"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/module/mongodb"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/logp"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb"
+	"github.com/useproject/elastic-beats/beats/metricbeat/module/mongodb"
 )
 
 var debugf = logp.MakeDebug("mongodb.dbstats")

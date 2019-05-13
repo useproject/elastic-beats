@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
 )
 
 func eventMapping(key string, data common.MapStr) (common.MapStr, error) {

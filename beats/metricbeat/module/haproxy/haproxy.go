@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/elastic/beats/metricbeat/mb/parse"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb/parse"
 
 	"github.com/gocarina/gocsv"
 	"github.com/mitchellh/mapstructure"

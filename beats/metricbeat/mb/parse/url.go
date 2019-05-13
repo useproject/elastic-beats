@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb"
 
 	"github.com/pkg/errors"
 )

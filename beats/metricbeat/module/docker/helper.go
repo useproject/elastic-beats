@@ -5,8 +5,8 @@ import (
 
 	"github.com/docker/docker/api/types"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/safemapstr"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/common/safemapstr"
 )
 
 type Container struct {

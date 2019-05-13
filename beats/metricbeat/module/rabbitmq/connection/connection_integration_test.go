@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/useproject/elastic-beats/beats/libbeat/tests/compose"
+	mbtest "github.com/useproject/elastic-beats/beats/metricbeat/mb/testing"
 )
 
 func TestData(t *testing.T) {

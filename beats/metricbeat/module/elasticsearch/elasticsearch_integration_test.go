@@ -10,13 +10,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/useproject/elastic-beats/beats/libbeat/tests/compose"
+	mbtest "github.com/useproject/elastic-beats/beats/metricbeat/mb/testing"
 
-	_ "github.com/elastic/beats/metricbeat/module/elasticsearch/index"
-	_ "github.com/elastic/beats/metricbeat/module/elasticsearch/index_summary"
-	_ "github.com/elastic/beats/metricbeat/module/elasticsearch/node"
-	_ "github.com/elastic/beats/metricbeat/module/elasticsearch/node_stats"
+	_ "github.com/useproject/elastic-beats/beats/metricbeat/module/elasticsearch/index"
+	_ "github.com/useproject/elastic-beats/beats/metricbeat/module/elasticsearch/index_summary"
+	_ "github.com/useproject/elastic-beats/beats/metricbeat/module/elasticsearch/node"
+	_ "github.com/useproject/elastic-beats/beats/metricbeat/module/elasticsearch/node_stats"
 )
 
 var metricSets = []string{

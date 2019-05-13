@@ -3,8 +3,8 @@ package mb
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/beat"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
 )
 
 // EventModifier is a function that can modifies an Event. This is typically

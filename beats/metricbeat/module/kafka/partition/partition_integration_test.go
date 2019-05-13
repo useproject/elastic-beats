@@ -13,10 +13,10 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/logp"
+	"github.com/useproject/elastic-beats/beats/libbeat/tests/compose"
+	mbtest "github.com/useproject/elastic-beats/beats/metricbeat/mb/testing"
 )
 
 const (

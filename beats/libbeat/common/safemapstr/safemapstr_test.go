@@ -3,7 +3,7 @@ package safemapstr
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
 
 	"github.com/stretchr/testify/assert"
 )

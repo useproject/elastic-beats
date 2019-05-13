@@ -1,5 +1,5 @@
 package kafka
 
-import "github.com/elastic/beats/libbeat/logp"
+import "github.com/useproject/elastic-beats/beats/libbeat/logp"
 
 var debugf = logp.MakeDebug("kafka")

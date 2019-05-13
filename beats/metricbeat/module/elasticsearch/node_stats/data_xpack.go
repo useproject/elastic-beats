@@ -5,12 +5,12 @@ import (
 
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	s "github.com/elastic/beats/libbeat/common/schema"
-	c "github.com/elastic/beats/libbeat/common/schema/mapstriface"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/module/elasticsearch"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
+	s "github.com/useproject/elastic-beats/beats/libbeat/common/schema"
+	c "github.com/useproject/elastic-beats/beats/libbeat/common/schema/mapstriface"
+	"github.com/useproject/elastic-beats/beats/libbeat/logp"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb"
+	"github.com/useproject/elastic-beats/beats/metricbeat/module/elasticsearch"
 )
 
 var (

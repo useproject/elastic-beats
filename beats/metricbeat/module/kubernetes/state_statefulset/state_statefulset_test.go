@@ -11,8 +11,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/common"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
+	mbtest "github.com/useproject/elastic-beats/beats/metricbeat/mb/testing"
 )
 
 const testFile = "../_meta/test/kube-state-metrics"

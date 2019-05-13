@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	s "github.com/elastic/beats/libbeat/common/schema"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	s "github.com/useproject/elastic-beats/beats/libbeat/common/schema"
+	mbtest "github.com/useproject/elastic-beats/beats/metricbeat/mb/testing"
 
 	"github.com/stretchr/testify/assert"
 )

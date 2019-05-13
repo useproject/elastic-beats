@@ -3,8 +3,8 @@ package cluster_status
 import (
 	"encoding/json"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/logp"
 )
 
 type PgState struct {

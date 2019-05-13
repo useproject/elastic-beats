@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/elastic/beats/metricbeat/helper"
+	"github.com/useproject/elastic-beats/beats/metricbeat/helper"
 )
 
 // Global clusterIdCache. Assumption is that the same node id never can belong to a different cluster id

@@ -6,7 +6,7 @@
     },
     "docker": {
         "container": {
-            "command": "go test -tags=integration github.com/elastic/beats/metricbeat/module/... -data",
+            "command": "go test -tags=integration github.com/useproject/elastic-beats/beats/metricbeat/module/... -data",
             "created": "2017-12-07T07:20:57.000Z",
             "id": "d88e67bb6961a5bb70c1c1c48094c6030e43768eed91e827f437111888f9967e",
             "image": "metricbeatsnapshotnoxpack700alpha1d71419298b58ed8b0a5b60a6d1e4a476ffaf80a8_beat",

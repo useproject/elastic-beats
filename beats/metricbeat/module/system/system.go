@@ -4,7 +4,7 @@ import (
 	"flag"
 	"sync"
 
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb"
 )
 
 var (

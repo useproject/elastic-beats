@@ -8,7 +8,7 @@ import (
 	"github.com/StackExchange/wmi"
 	"github.com/stretchr/testify/assert"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	mbtest "github.com/useproject/elastic-beats/beats/metricbeat/mb/testing"
 )
 
 type Win32Service struct {

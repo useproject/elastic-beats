@@ -3,7 +3,7 @@ package leader
 import (
 	"encoding/json"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
 )
 
 type Counts struct {

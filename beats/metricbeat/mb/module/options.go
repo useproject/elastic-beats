@@ -3,7 +3,7 @@ package module
 import (
 	"time"
 
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb"
 )
 
 // Option specifies some optional arguments used for configuring the behavior

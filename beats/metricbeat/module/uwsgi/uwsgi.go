@@ -1,8 +1,8 @@
 package uwsgi
 
 import (
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/parse"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb/parse"
 )
 
 // HostParser is used for parsing the configured uWSGI hosts.

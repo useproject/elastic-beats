@@ -13,8 +13,8 @@ import (
 	ucfg "github.com/elastic/go-ucfg"
 	"github.com/elastic/go-ucfg/yaml"
 
-	"github.com/elastic/beats/libbeat/common/file"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/useproject/elastic-beats/beats/libbeat/common/file"
+	"github.com/useproject/elastic-beats/beats/libbeat/logp"
 	"github.com/elastic/go-ucfg/cfgutil"
 )
 

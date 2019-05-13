@@ -9,7 +9,7 @@ import (
 	"github.com/ericchiang/k8s"
 	"github.com/ericchiang/k8s/apis/core/v1"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/useproject/elastic-beats/beats/libbeat/logp"
 )
 
 // Max back off time for retries

@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
 	"github.com/elastic/gosigar"
 )
 
@@ -66,7 +66,7 @@ func TestGetProcess(t *testing.T) {
 	}
 }
 
-// See https://github.com/elastic/beats/issues/6620
+// See https://github.com/useproject/elastic-beats/beats/issues/6620
 func TestGetSelfPid(t *testing.T) {
 	pid, err := GetSelfPid()
 	assert.NoError(t, err)

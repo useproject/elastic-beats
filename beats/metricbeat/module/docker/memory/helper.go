@@ -1,8 +1,8 @@
 package memory
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/module/docker"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/metricbeat/module/docker"
 )
 
 type MemoryData struct {

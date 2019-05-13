@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/monitoring/report"
-	esout "github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	"github.com/elastic/beats/libbeat/publisher"
-	"github.com/elastic/beats/libbeat/testing"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/monitoring/report"
+	esout "github.com/useproject/elastic-beats/beats/libbeat/outputs/elasticsearch"
+	"github.com/useproject/elastic-beats/beats/libbeat/publisher"
+	"github.com/useproject/elastic-beats/beats/libbeat/testing"
 )
 
 type publishClient struct {

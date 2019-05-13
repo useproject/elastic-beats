@@ -3,7 +3,7 @@ package server
 import (
 	"errors"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
 )
 
 type HttpServerConfig struct {

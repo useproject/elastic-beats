@@ -161,7 +161,7 @@
                 },
                 "path": "/docker/d88e67bb6961a5bb70c1c1c48094c6030e43768eed91e827f437111888f9967e"
             },
-            "cmdline": "go test -tags=integration github.com/elastic/beats/metricbeat/module/... -data",
+            "cmdline": "go test -tags=integration github.com/useproject/elastic-beats/beats/metricbeat/module/... -data",
             "cpu": {
                 "start_time": "2017-12-07T07:20:59.000Z",
                 "total": {
@@ -171,7 +171,7 @@
                     "pct": 0.0397
                 }
             },
-            "cwd": "/go/src/github.com/elastic/beats/metricbeat",
+            "cwd": "/go/src/github.com/useproject/elastic-beats/beats/metricbeat",
             "fd": {
                 "limit": {
                     "hard": 1048576,

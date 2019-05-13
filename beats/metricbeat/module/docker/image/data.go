@@ -5,8 +5,8 @@ import (
 
 	"github.com/docker/docker/api/types"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/module/docker"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/metricbeat/module/docker"
 )
 
 func eventsMapping(imagesList []types.ImageSummary, dedot bool) []common.MapStr {

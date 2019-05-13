@@ -18,9 +18,9 @@
                 "port": 45723
             },
             "process": {
-                "cmdline": "/tmp/go-build519327234/github.com/elastic/beats/metricbeat/module/system/socket/_test/socket.test -test.v=true -data",
+                "cmdline": "/tmp/go-build519327234/github.com/useproject/elastic-beats/beats/metricbeat/module/system/socket/_test/socket.test -test.v=true -data",
                 "command": "socket.test",
-                "exe": "/tmp/go-build519327234/github.com/elastic/beats/metricbeat/module/system/socket/_test/socket.test",
+                "exe": "/tmp/go-build519327234/github.com/useproject/elastic-beats/beats/metricbeat/module/system/socket/_test/socket.test",
                 "pid": 2025
             },
             "user": {

@@ -5,9 +5,9 @@ package windows
 import (
 	"sync"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/helper"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/useproject/elastic-beats/beats/libbeat/logp"
+	"github.com/useproject/elastic-beats/beats/metricbeat/helper"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb"
 )
 
 var once sync.Once

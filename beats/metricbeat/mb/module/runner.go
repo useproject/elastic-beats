@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/elastic/beats/libbeat/beat"
+	"github.com/useproject/elastic-beats/beats/libbeat/beat"
 )
 
 // Runner is a facade for a Wrapper that provides a simple interface

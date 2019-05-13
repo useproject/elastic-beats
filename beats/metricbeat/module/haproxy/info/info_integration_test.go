@@ -5,8 +5,8 @@ package info
 import (
 	"testing"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	"github.com/elastic/beats/metricbeat/module/haproxy"
+	mbtest "github.com/useproject/elastic-beats/beats/metricbeat/mb/testing"
+	"github.com/useproject/elastic-beats/beats/metricbeat/module/haproxy"
 )
 
 func TestData(t *testing.T) {

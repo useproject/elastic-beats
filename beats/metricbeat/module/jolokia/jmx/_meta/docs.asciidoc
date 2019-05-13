@@ -29,7 +29,7 @@ In case the underlying attribute is an object (e.g. see HeapMemoryUsage attribut
 structure will be published to Elastic "as is".
 
 It is possible to configure nested metric aliases by using dots in the mapping name (e.g. gc.cms_collection_time). For examples please refer to the
-https://github.com/elastic/beats/blob/{doc-branch}/metricbeat/module/jolokia/jmx/_meta/test/config.yml[/jolokia/jmx/test/config.yml].
+https://github.com/useproject/elastic-beats/beats/blob/{doc-branch}/metricbeat/module/jolokia/jmx/_meta/test/config.yml[/jolokia/jmx/test/config.yml].
 
 All metrics from a single mapping will be POSTed to the defined host/port and sent to Elastic as a single event.
 To make it possible to differentiate between metrics from multiple similar applications running on the same host,

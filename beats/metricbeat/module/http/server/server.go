@@ -1,10 +1,10 @@
 package server
 
 import (
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	serverhelper "github.com/elastic/beats/metricbeat/helper/server"
-	"github.com/elastic/beats/metricbeat/helper/server/http"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/useproject/elastic-beats/beats/libbeat/common/cfgwarn"
+	serverhelper "github.com/useproject/elastic-beats/beats/metricbeat/helper/server"
+	"github.com/useproject/elastic-beats/beats/metricbeat/helper/server/http"
+	"github.com/useproject/elastic-beats/beats/metricbeat/mb"
 )
 
 // init registers the MetricSet with the central registry.

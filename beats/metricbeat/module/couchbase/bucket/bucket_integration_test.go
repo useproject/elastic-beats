@@ -5,8 +5,8 @@ package bucket
 import (
 	"testing"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	"github.com/elastic/beats/metricbeat/module/couchbase"
+	mbtest "github.com/useproject/elastic-beats/beats/metricbeat/mb/testing"
+	"github.com/useproject/elastic-beats/beats/metricbeat/module/couchbase"
 )
 
 func TestData(t *testing.T) {

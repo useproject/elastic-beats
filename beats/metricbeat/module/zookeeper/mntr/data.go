@@ -5,10 +5,10 @@ import (
 	"io"
 	"regexp"
 
-	"github.com/elastic/beats/libbeat/common"
-	s "github.com/elastic/beats/libbeat/common/schema"
-	c "github.com/elastic/beats/libbeat/common/schema/mapstrstr"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
+	s "github.com/useproject/elastic-beats/beats/libbeat/common/schema"
+	c "github.com/useproject/elastic-beats/beats/libbeat/common/schema/mapstrstr"
+	"github.com/useproject/elastic-beats/beats/libbeat/logp"
 )
 
 var (

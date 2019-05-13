@@ -1,8 +1,8 @@
 package elasticsearch
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/monitoring"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/monitoring"
 )
 
 func makeSnapshot(R *monitoring.Registry) common.MapStr {

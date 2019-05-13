@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	mbtest "github.com/useproject/elastic-beats/beats/metricbeat/mb/testing"
 
 	"github.com/stretchr/testify/assert"
 )

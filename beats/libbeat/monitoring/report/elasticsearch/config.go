@@ -3,7 +3,7 @@ package elasticsearch
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/outputs"
+	"github.com/useproject/elastic-beats/beats/libbeat/outputs"
 )
 
 // config is subset of libbeat/outputs/elasticsearch config tailored

@@ -3,8 +3,8 @@ package bucket
 import (
 	"encoding/json"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/useproject/elastic-beats/beats/libbeat/common"
+	"github.com/useproject/elastic-beats/beats/libbeat/logp"
 )
 
 type BucketQuota struct {
